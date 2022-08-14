@@ -1,0 +1,222 @@
+.portfolio {
+    margin-bottom: 30px;
+}
+.portfolio__nav {
+    padding: 30px 0 14px 0;
+}
+.portfolio__nav--link {
+    line-height: 3.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #555;
+    text-decoration: none;
+}
+.portfolio__nav--link.present {
+    color: #243a76;
+}
+.portfolio__nav--icon {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 0 8px;
+}
+.portfolio__slider {
+    position: relative;
+}
+.portfolio__slider-item {
+    padding: 12px;
+}
+.portfolio__slider-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.portfolio-icon {
+    font-size: 3.5rem;
+    color: #999;
+    position: absolute;
+    z-index: 99;
+    cursor: pointer;
+}
+.portfolio-icon:hover {
+    color: #ed1b24;
+}
+.portfolio-prev {
+    top: 45%;
+    left: 20px;
+}
+.portfolio-next {
+    bottom: 40%;
+    right: 20px;
+}
+
+.portfolio__top {
+    background-color: #f2f2f2;
+    margin: 12px 0;
+    padding: 12px 0;
+}
+.portfolio__sort-zone {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.portfolio__price,
+.price-curency {
+    font-size: 1.2rem;
+    color: #222;
+    margin-right: 4px;
+}
+.portfolio__prcie-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+    background-color: #fff;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.portfolio__prcie-filter input {
+    width: 100%;
+    text-align: right;
+    border: none;
+    outline: none;
+    margin-right: 4px;
+}
+.btn-filter {
+    border: none;
+    background: #243a76;
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 12px;
+}
+.portfolio__new-sort-zone {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 12px 6px 12px;
+}
+.p-list_fillter-link {
+    font-size: 1.5rem;
+    background: #fff;
+    color: #243a76;
+    position: relative;
+    border: 1px dashed #243a76;
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-weight: 600;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-item {
+    border: 1px solid #d7d7d7;
+    overflow: hidden;
+    cursor: pointer;
+}
+.portfolio-bg {
+    width: 206px;
+    min-height: 206px;
+}
+.portfolio-bg:hover .portfolio-img {
+    transform: translateY(-5px);
+}
+.portfolio-img {
+    max-width: 100%;
+    transform: translateY(0);
+    transition: ease .3s;
+}
+.portfolio-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.portfolio-btn {
+    display: block;
+    padding: 8px 12px;
+    float: left;
+    line-height: 14px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #243a76;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    background: #a8a8a8;
+}
+.portfolio-btn-active {
+    background-color: #243a76;
+    color: #fff;
+}
+
+.p-cate-left {
+    background-color: #fff;
+    padding: 12px;
+}
+.p-cate-title {
+    font-size: 1.2rem;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    padding: 2px 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.p-fillter-item.selected .p-fillter-list-value {
+    display: none;
+}
+.p-fillter-item-title {
+    color: #333;
+    font-size: 14px;
+    line-height: 45px;
+    display: block;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.p-fillter-list-value {
+    padding: 10px 10px 0;
+}
+.list-brand-check.manufacturer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.list-brand-check-item {
+    list-style: none;
+}
+.list-brand-check-item label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.list-brand-check-item label input {
+    margin-right: 4px;
+    cursor: pointer;
+}
+.list-brand-check-item.manufacturer {
+    width: calc((100% - 44px) / 2);
+}
+.list-brand-check-item-link {
+    font-size: 1.2rem;
+    color: #212529;
+    text-decoration: none;
+    font-weight: 700;
+}
+.list-brand-check-item-link.manufacturer {
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
